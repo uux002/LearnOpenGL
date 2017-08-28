@@ -96,15 +96,18 @@ int main() {
 			std::cout << "ERROR::SHADER:LINK_FAILD\n" << infoLog << std::endl;
 		}
 
-		// use shader program
-		glUseProgram(shaderProgram);
-
 		glDeleteShader(vertexShader);
 		glDeleteShader(fragmentShader);
 
 		// tell the GPU how to use the data
 		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 		glEnableVertexAttribArray(0);
+
+		// use shader program
+		glUseProgram(shaderProgram);
+
+		// Draw something
+		
 
 
 
