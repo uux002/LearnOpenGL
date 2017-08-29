@@ -1,4 +1,7 @@
 ﻿  main.cpp
-c:\treasland\opengl\openglprojects\learnopengl\learnopengl\main.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  GLSLTest.cpp
+  DrawTriangle.cpp
+  正在生成代码...
+  glad.c
   LearnOpenGL.vcxproj -> C:\Treasland\OpenGL\OpenGLProjects\LearnOpenGL\Debug\LearnOpenGL.exe
   LearnOpenGL.vcxproj -> C:\Treasland\OpenGL\OpenGLProjects\LearnOpenGL\Debug\LearnOpenGL.pdb (Partial PDB)
