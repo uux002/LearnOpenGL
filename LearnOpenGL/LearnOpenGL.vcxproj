@@ -125,6 +125,11 @@
   <ItemGroup>
     <ClInclude Include="LearnOpenGL.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentShader01.txt" />
+    <Text Include="vertexShader01.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

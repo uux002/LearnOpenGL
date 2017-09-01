@@ -6,6 +6,8 @@
 #include <glad/glad.h>
 #include <glfw3.h>
 #include <iostream>
+#include "Shader.h"
+#include "stb_image.h"
 
 #include "DrawTriangle.h"
 
